@@ -1,0 +1,23 @@
+form{
+    border-radius: 2px;
+    border: gray 10px;
+    position: absolute;
+    top: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    position: absolute;
+    left: 55px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: bisque;
+}
