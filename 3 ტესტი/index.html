@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="todo">
+        <h1>To-Do list</h1>
+        <br><br><br><br><br><br><br>
+        <h1>add a task</h1>
+        <input type="text" id="taskInput" placeholder="Add a task">
+        <button id="addTaskBtn">Add task</button>
+        <div class="child">
+            <div class="grandchild">
+                <h2>Tasks that arent done</h2>
+                <ul id="taskList"></ul>
+            </div>
+            <div class="grandchild">
+                <h2>Completed tasks</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+        <p>note: you cant delete items that are already completed</p>
+        <p>რომელი ხაზიც (tasks that arent done, completed tasks) უფრო მაღლაა ანუ იქ უფრო მეტია, ცადე რომ completed tasks უფრო მეტი იყოს</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
